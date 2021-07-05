@@ -193,6 +193,12 @@ nav .menu-button {
     border-color: #4070f4;
 } 
 
+.cv-button > button > a {
+    color:white;
+}
+.cv-button > button > a:hover {
+    color:#4070f4;
+}
 
 
 /* Responsive media query CSS */
