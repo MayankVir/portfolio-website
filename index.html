@@ -1,14 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Mayank Virmani</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-    <h1>HELlloooyy</h1>
-</body>
-<script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- Navigation Menu Start -->
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#"> Portfolio </a></div>
+        <ul class="menu">
+          <li><a href="">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="menu-cancel-button">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+        <div class="media-icons">
+            <a href="https://www.instagram.com/_thecodebreaker_/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/MayankVir"><i class="fab fa-github" target="_blank"></i></a>
+            <a href="https://www.linkedin.com/in/mayank-virmani/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="menu-button">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- Home Section Start-->
+    <section class="home" id="#home">
+      <div class="home-content">
+        <div class="details">
+          <div class="details-one">Hello</div>
+          <div class="details-two">I'm Mayank Virmani</div>
+          <div class="details-three">Full Stack Web Developer</div>
+        </div>
+        <div class="cv-button">
+          <button>Download CV</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="about__heading">
+        About Me
+        <hr class="hr1" />
+        <hr class="hr2" />
+      </div>
+      <div class="about__main">
+        <img src="my-image-sq.jpg" alt="My image" />
+        <div class="about__desc">
+          Hi, I am Mayank Virmani. I am currently a third year Undergrad student
+          at Chandigarh University pursuing Bachelor's of Engineering in
+          Computer Science. I have been into Web Development from past an year.
+          I started with Frontend Web Development using HTML, CSS and JS and now
+          I am trying to get my hands dirty on Backend technologies like NodeJs
+          and ExpressJs. I am currently Interning at MIDAS Labs at IIIT Delhi.
+        </div>
+      </div>
+    </section>
+
+    <!-- SKills HTML CSS Javascript ReactJs NodeJs ExpressJs Redux MongoDb -->
+
+    <section class="skills" id="skills">
+      <div class="skills__heading">
+        My Skills
+        <hr class="hr1" />
+        <hr class="hr2" />
+      </div>
+
+      <div class="skills__card">
+        <div class="skills__upperCard">
+            <div class="card card-1">
+                <span class="topic">HTML</span>
+                <span class="num">80%</span>
+            </div>
+            <div class="card card-2">
+                <span class="topic">CSS</span>
+                <span class="num">70%</span>
+            </div>
+            <div class="card card-3">
+                <span class="topic">Javascript</span>
+                <span class="num">60%</span>
+            </div>
+            <div class="card card-4">
+                <span class="topic">ReactJs</span>
+                <span class="num">50%</span>
+            </div>
+        </div>
+        <div class="skills__lowerCard">
+            <div class="card card-1">
+                <span class="topic">NodeJs</span> 
+                <span class="num">50%</span>
+            </div>
+            <div class="card card-2">
+                <span class="topic">ExpressJs</span>
+                 <span class="num">50%</span>
+            </div>
+            <div class="card card-3">
+                <span class="topic">Redux</span> 
+                <span class="num">30%</span>
+            </div>
+            <div class="card card-4">
+                <span class="topic">MongoDb</span>
+                 <span class="num">40%</span>
+            </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Education Section -->
+<section class="education" id="education">
+    <div class="education__heading">
+        Experience & Education
+        <hr class="hr1">
+        <hr class="hr2">
+    </div>
+    <div class="education__details">
+        <div class="verticalRuler"></div>
+        <div class="education__intern">
+            <div class="circle"></div>
+            <div class="tile internDetails">
+                <div class="edu__time">May 2021 - Present</div>
+                <div class="edu__place">Midas Labs @ IIIT Delhi</div>
+                <div class="edu__pos">Research Intern</div>
+                <div class="edu__work">Working on an Healthcare application where almost all the health facilities are available on one tap.</div>
+            </div>
+        </div>
+
+        <div class="education__university">
+            <div class="circle"></div>
+            <div class=" tile universityDetails">
+                <div class="edu__time">Jun 2018 - Jun 2022</div>
+                <div class="edu__place">Chandigarh University</div>
+                <div class="edu__pos">BE in CSE</div>
+                <div class="edu__work">Coursework: <br>1. Data Structures and Algorithms <br>2. Object Oriented Programming<br>3. Computer Networks <br>4. Operating System Design <br>5. Database Management System</div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+    <div class="contact__heading">
+        Contact Me
+        <hr class="hr1">
+        <hr class="hr2">
+    </div>
+    <div class="contact__descDetails">
+        <h2>Have any Project in mind?</h2>
+        <p>Connect with me on any social media handle below</p>
+        <div class="contact__media-icons">
+            <a href="https://www.instagram.com/_thecodebreaker_/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/MayankVir"><i class="fab fa-github" target="_blank"></i></a>
+            <a href="https://www.linkedin.com/in/mayank-virmani/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+    </div>
+</section>
+
+    <div class="end"> </div
+  </body>
+  <script src="script.js"></script>
 </html>
